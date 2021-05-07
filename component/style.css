@@ -1,0 +1,132 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  width: 200px;
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding: 0px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-right: 55px;
+  font-family: "Lato";
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+
+#contact {
+  color: tomato;
+  display: flex;
+  position: relative;
+  top: 55px;
+  font-size: 25px;
+  justify-content: flex-end;
+  z-index: 2;
+  padding-right: 15px;
+}
+
+.line {
+  height: 1px;
+  width: 100vw;
+}
+
+.myName {
+  margin-left: 15vw;
+  justify-content: center;
+}
+
+.content .nav {
+  height: 100%;
+}
+
+.font_black {
+  color: black;
+}
+
+.font_white {
+  color: white;
+  margin-right: 2px;
+}
+
+.mar_top_110 {
+  margin-top: 110px;
+}
+
+.aling_center {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+@keyframes appearTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.appTitle {
+  opacity: 0;
+  animation: appearTitle 4s ease-in-out forwards;
+}
+
+@keyframes contactAnimation {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+
+  55% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.appContact {
+  animation: contactAnimation 4s ease-in-out forwards;
+}
+
+.a250 {
+  height: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tx_right {
+  text-align: right;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.nanum_Pen {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+}
+
+.nanum_Gothic {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#footer {
+  margin-right: 30px;
+}

@@ -1,0 +1,31 @@
+.container,
+.overlay:before {
+  background: url(https://source.unsplash.com/featured/?night-sky) no-repeat
+    fixed 0 0 / cover;
+}
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.overlay {
+  max-width: 768px;
+  overflow: hidden;
+  padding: 50px;
+  position: relative;
+  color: white;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  border-radius: 60px;
+}
+.overlay:before {
+  content: "";
+  filter: blur(14px);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
